@@ -1,7 +1,7 @@
 .general_input, .long_input {
     width: 100%;
     padding: 1%;
-    border: .05em solid grey;
+    border: 1px solid grey;
     border-radius: .5em;
     box-sizing: border-box;
     margin-top: .5%;
