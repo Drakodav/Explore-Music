@@ -1,36 +1,36 @@
-input[type=text], select, textarea {
+.general_input, .long_input {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 1%;
+    border: .05em solid grey;
+    border-radius: .5em;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: .5%;
+    margin-bottom: 2%;
     resize: vertical;
 }
 
-input[type=submit] {
-    background-color: white;
+button[type=submit] {
+    background-color: #009688;
     color: black;
     padding: 12px 20px;
     border: solid black 4%;
     border-radius: 4%;
     transition-duration: .2s;
+	width:100%;
+	background: rgba(200, 54, 54, 0.5);
 }
 
-input[type=submit]:hover {
+button[type=submit]:hover {
     background-color: #009688;
 	color: white;
 	box-shadow:.1vw .1vh .05em #009688;
 	border: 1px solid rgba(255, 255, 255, .4);
+	opacity: 1;
+}
+span {
+	font-weight: bold;
 }
 
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
-#contact_form form {
+form {
 	padding: 2%;
 }

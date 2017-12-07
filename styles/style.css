@@ -1,7 +1,8 @@
 #main {
   width: 95%;
   margin: auto;
-  border: 1px #1a237e solid;
+  border: .05em #1a237e solid;
+  border-radius: .5em;
   min-height: 83vh;
   background-color: white;
   box-shadow: 10px 10px 30px #1a237e;
@@ -28,11 +29,16 @@ hr {
   ); 
 }
 
+.bar {
+	border-bottom: .2em solid #009688;
+}
+
 nav ul li a {
   color: white;
   text-align: center;
   text-decoration: none;
   font-size: 19px;
+  font-weight: bold;
   display: inline-block;
   width:13vw;
   padding: 2vh 2vw 2vh 3vw;
@@ -102,6 +108,7 @@ footer {
 	padding: 2vh;
 	width: auto;
 	color: white;
+	font-weight: bold;
 }
 
 p a {
