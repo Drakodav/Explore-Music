@@ -124,12 +124,12 @@ p a:hover {
 .next {
 	background-color: white; 
     color: black; 
-	border: 2px solid #009688;
+	border: .3em solid #009688;
 	transition-duration: 0.3s;
 	padding: 2%;
 	margin: 2%;
-	margin-left: 80%;
-	border-radius: 4%;
+	margin-left: 75%;
+	border-radius: 2em;
 }
 
 .next:hover {
