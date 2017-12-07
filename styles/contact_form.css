@@ -1,11 +1,11 @@
 .general_input, .long_input {
     width: 100%;
     padding: 1%;
-    border: .05em solid grey;
+    border: .03em solid grey;
     border-radius: .5em;
     box-sizing: border-box;
     margin-top: .5%;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
     resize: vertical;
 }
 
@@ -13,11 +13,11 @@ button[type=submit] {
     background-color: #009688;
     color: black;
     padding: 12px 20px;
-    border: solid black 4%;
-    border-radius: 4%;
+    border: solid grey .05em;
+    border-radius: .5em;
     transition-duration: .2s;
 	width:100%;
-	background: rgba(200, 54, 54, 0.5);
+	background: rgba(54, 54, 54, .4);
 }
 
 button[type=submit]:hover {
@@ -32,5 +32,5 @@ span {
 }
 
 form {
-	padding: 2%;
+	padding: 3%;
 }
