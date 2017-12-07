@@ -6,7 +6,9 @@
     <title>Explore Music</title>
     <link href="../styles/style.css" type="text/css" rel="stylesheet">
     <link href="../styles/small.css" type="text/css" rel="stylesheet">
-	<link href="../styles/big.css" type="text/css" rel="stylesheet">
+	<link href="../styles/big.css" type="text/css" rel="stylesheet">	
+	<link href="../styles/contact_form.css" type="text/css" rel="stylesheet">	
+	<script src="../scripts/form.js"></script>
   </head>
 
   <body> 
@@ -29,9 +31,42 @@
 
       <div id="content">
 
-        <section class="text">
-          <p> Type some shit here, also use javascript for this part</p>
-        </section>       
+        <section id="contact_form">
+			<form name="reg_form" onsubmit="validate()">
+				<label>
+					<span> First Name </span>
+					<input class="general_input" type="text" name="first_name">
+				</label>
+				
+				<label>
+					<span> Last Name </span>
+					<input class="general_input" type="text" name="last_name">
+				</label>
+
+				<label>
+					<span> Address </span>
+					<input class="general_input" type="text" name="address">
+				</label>
+
+				<label>
+					<span> Country </span>
+					<select class="general_input"> 
+						<option value="united_kingdom"> United Kingdom </option>
+						<option value="ireland"> Ireland </option>
+						<option value="germany"> Germany </option>
+						<option value="usa"> USA </option>
+						<option value="spain"> Spain </option>
+					<select>
+				</label>
+
+				<label>
+					<span> Subject </span>
+					<input class="long_input"type="text" name="subject" >
+				</label>
+				<br>
+				<button type="submit"> Submit </button>
+			</form>
+		</section>       
 
       </div>
       
