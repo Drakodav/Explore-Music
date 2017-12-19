@@ -97,9 +97,24 @@ header {
 .text {
   padding-right: 5vw;
   padding-left: 5vw;
-  padding-bottom: 2vw;
-  padding-top: 2vw;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
   font-size: 17px
+}
+
+.table {
+	padding: 2vh 5vw 2vh 5vw;
+}
+
+.table td, th {
+	border: .05em solid grey;
+    text-align: center;
+    padding: 2% 0 2% 0;
+	width: 70vw;
+}
+
+.table tr:nth-child(even) {
+	background-color: #dddddd;
 }
 
 footer {
