@@ -45,7 +45,7 @@ nav ul li a {
   transition-duration: 250ms;
 }
 
-nav ul li a:hover { background-color: #009688;}
+nav ul li a:hover { background-color: #009688; text-shadow: .1vw .1vh .05em black;}
 
 nav ul li {
   display: inline-block;
@@ -99,7 +99,7 @@ header {
   padding-left: 5vw;
   padding-bottom: 2vh;
   padding-top: 2vh;
-  font-size: 17px
+  font-size: 17px;
 }
 
 .table {
